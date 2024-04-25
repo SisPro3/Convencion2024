@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#f3f9fb</color>
+    <color name="colorPrimary">#005CB9</color>
+    <color name="colorPrimaryDark">#005CB9</color>
+    <color name="colorTertiary">#005CB9</color>
+    <color name="colorQuarter">#FF8300</color>
+    <color name="colorAccent">#FF8300</color>
+    <color name="colorTextButton">#ffffff</color>
+    <color name="txtHighlight">#fafafa</color>
+    <color name="txtSilver">#c1c1c1</color>
+    <color name="colorYello">#ffffff00</color>
+    <color name="colorTextSecondary">#868686</color>
+    <color name="border_articles_line">#ffffccbc</color>
+    <color name="border_articles_family">#ffd7ccc8</color>
+    <color name="ic_barcode">#ffb2dfdb</color>
+    <color name="ic_btn_add_article">#ffb2dfdb</color>
+    <color name="ic_cantidad_sistema">#ffF9CD69</color>
+    <color name="ic_cantidad_armonia">#ffb2dfdb</color>
+    <color name="ic_cantidad_diferencia">#FFe57373</color>
+    <color name="ic_cantidad_diferencia_positive">#ff77DD77</color>
+    <color name="ic_fingerprint">#FFef6c00</color>
+    <color name="icons_info">#ff90a4ae</color>
+    <color name="btn_configuration">#90a4ae</color>
+    <color name="btn_auditoria">#90a4ae</color>
+    <color name="btn_auditar">#90a4ae</color>
+    <color name="btn_productos">#90a4ae</color>
+    <color name="btn_historial">#90a4ae</color>
+    <color name="start_color">#FF115173</color>
+    <color name="navbar_para_gradiente">@color/start_color</color>
+    <color name="navbar_sin_gradiente">@color/colorPrimary</color>
+    <color name="qr">#FF022c43</color>
+    <color name="qr_background">#FFFFFFFF</color>
+    <color name="aliceblue"	>#F0F8FF</color>
+    <color name="blue">#0000FF</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="violet">#EE82EE</color>
+    <color name="red">#FF0000</color>
+    <color name="olivedrab">#6B8E23</color>
+    <color name="lime">#00FF00</color>
+    <color name="lightseagreen">#20B2AA</color>
+    <color name="goldenrod">#DAA520</color>
+    <color name="green">#008000</color>
+    <color name="statusBar">#000000</color>
+    <color name="navigationBar">#000000</color>
+    <color name = "acvblue">#005CB9</color>
+    <color name = "acvblack">#000000</color>
+    <color name = "acvorange">#FF8300</color>
+    <color name = "acvwhite">#FFFFFF</color>
+
+</resources>

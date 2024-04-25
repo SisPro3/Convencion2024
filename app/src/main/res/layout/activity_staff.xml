@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_gerencial">
+
+    <!-- Guía vertical al 50% para centrar los botones horizontalmente -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineVerticalCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineHorizontalMiddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.27" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineHorizontalBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.57" />
+
+
+
+    <ImageButton
+        android:id="@+id/personas"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:background="@drawable/personas"
+        app:layout_constraintBottom_toTopOf="@id/guidelineHorizontalBottom"
+        app:layout_constraintEnd_toEndOf="@id/guidelineVerticalCenter"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="@id/guidelineVerticalCenter"
+        app:layout_constraintTop_toTopOf="@id/guidelineHorizontalMiddle"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/comidas"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:background="@drawable/comida"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guidelineVerticalCenter"
+        app:layout_constraintStart_toStartOf="@id/guidelineVerticalCenter"
+        app:layout_constraintTop_toTopOf="@id/guidelineHorizontalBottom"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

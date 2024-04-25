@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Convencion</string>
+    <string-array name="spinnerReuniones">
+        <item>Todos</item>
+        <item>Atendidos</item>
+        <item>Pendientes</item>
+    </string-array>
+</resources>

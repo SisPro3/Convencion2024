@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_gerencial"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:id="@+id/selectUser"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="200dp"
+
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+        android:background="@drawable/fondo_campos_acvorange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Spinner
+            android:id="@+id/spinnerComidas"
+            android:layout_width="4dp"
+            android:layout_height="1dp"
+            android:backgroundTint="@android:color/transparent"
+            android:spinnerMode="dropdown"
+            android:textColor="#808080" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteComidas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30dp"
+            android:backgroundTint="@android:color/transparent"
+            android:gravity="center"
+            android:hint="Buscar usuario"
+            android:singleLine="true"
+            android:textColor="#808080" />
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/inputPasaje"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:background="@drawable/fondo_campos_acvorange"
+        android:textColor="#808080"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:hint="Agregar comidas"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/selectUser"
+        app:layout_constraintVertical_bias="0.259" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="608dp"
+        android:backgroundTint="@color/acvblue"
+        android:text="Enviar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
